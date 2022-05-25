@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagem_filme"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_imagem_250"
+        android:src="@drawable/imagem_lorax"
+        android:contentDescription="@string/descricao_imagem_lorax"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="@dimen/margem_topo_0"/>
+
+    <TextView
+        android:id="@+id/titulo_filme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_filme_o_lorax"
+        android:textSize="@dimen/tamanho_fonte_16"
+        android:textColor="@color/cor_primaria_laranja_dark"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margem_topo_10"/>
+
+</LinearLayout>
